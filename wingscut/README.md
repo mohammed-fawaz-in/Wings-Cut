@@ -1,5 +1,5 @@
 # WINGS CUT — Photography & Videography Website
-## BCA Final Year Project
+## Mohammed Fawaz
 
 A fully responsive, production-grade photography and videography studio website
 built with PHP, MySQL, HTML5, CSS3, and Vanilla JavaScript.
@@ -137,7 +137,7 @@ And configure your server's mail settings (SMTP recommended for production).
 
 ---
 
-## 🎓 BCA Project Info
+## 🎓  Project Info
 - **Project Name:** WINGS CUT — Photography & Videography Studio Website
 - **Tech Stack:** HTML5, CSS3, JavaScript (Vanilla), PHP 8, MySQL
 - **Fonts:** Cormorant Garamond (Display) + Outfit (Body)
