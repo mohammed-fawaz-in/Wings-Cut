@@ -1,0 +1,16 @@
+# uploaded by customers / admin while the site runs
+uploads/payment-screenshots/*
+uploads/client-work/*
+images/gallery/*
+!uploads/payment-screenshots/.gitkeep
+!uploads/client-work/.gitkeep
+!images/gallery/.gitkeep
+
+# the admin password hash is generated on first run, keep it out of git
+admin/includes/pw.php
+
+# editor and OS clutter
+.DS_Store
+Thumbs.db
+.vscode/
+*.log

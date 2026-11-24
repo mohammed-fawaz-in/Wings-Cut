@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040420"/>
+      <stop offset="40%" stop-color="#0d1560"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="vign" cx="50%" cy="50%" r="75%">
+      <stop offset="30%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.72)"/>
+    </radialGradient>
+    <filter id="blur2"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Studio lighting setup -->
+  <radialGradient id="spot" cx="42%" cy="28%" r="50%">
+    <stop offset="0%" stop-color="#2563eb" stop-opacity="0.38"/>
+    <stop offset="100%" stop-color="transparent"/>
+  </radialGradient>
+  <rect width="800" height="600" fill="url(#spot)"/>
+  <!-- Softbox rim light -->
+  <radialGradient id="rim" cx="85%" cy="40%" r="35%">
+    <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="transparent"/>
+  </radialGradient>
+  <rect width="800" height="600" fill="url(#rim)"/>
+  <!-- Person silhouette - head -->
+  <circle cx="390" cy="195" r="74" fill="rgba(0,0,0,0.42)"/>
+  <!-- Hair -->
+  <ellipse cx="390" cy="155" rx="84" ry="62" fill="rgba(0,0,0,0.48)"/>
+  <!-- Shoulders/body -->
+  <ellipse cx="390" cy="400" rx="110" ry="180" fill="rgba(0,0,0,0.38)"/>
+  <!-- Neck -->
+  <rect x="370" y="262" width="40" height="60" fill="rgba(0,0,0,0.4)" rx="8"/>
+  <!-- Eye catchlights -->
+  <circle cx="372" cy="192" r="5" fill="#93c5fd" opacity="0.55"/>
+  <circle cx="408" cy="192" r="5" fill="#93c5fd" opacity="0.55"/>
+  <!-- Rim highlight on cheek -->
+  <ellipse cx="462" cy="210" rx="18" ry="28" fill="#93c5fd" opacity="0.12" transform="rotate(15,462,210)"/>
+  <!-- Collar/clothing suggestion -->
+  <path d="M 300 340 Q 390 380 480 340 L 500 420 Q 390 460 280 420 Z" fill="rgba(0,0,0,0.35)"/>
+
+  <rect width="800" height="600" fill="url(#vign)"/>
+  <rect x="0" y="0" width="800" height="3" fill="#93c5fd" opacity="0.8"/>
+  <rect x="0" y="488" width="800" height="112" fill="rgba(0,0,0,0.70)"/>
+  <rect x="0" y="488" width="800" height="1" fill="#93c5fd" opacity="0.5"/>
+  <rect x="36" y="510" width="3.5" height="50" fill="#93c5fd" opacity="0.9" rx="2"/>
+  <text x="52" y="534" font-family="Georgia,serif" font-size="21" font-weight="700"
+        fill="white" letter-spacing="3.5" opacity="0.95">STUDIO PORTRAIT</text>
+  <text x="52" y="558" font-family="Arial,sans-serif" font-size="13"
+        fill="rgba(255,255,255,0.5)" letter-spacing="1.5">Capturing Your Best</text>
+  <text x="764" y="530" font-family="Georgia,serif" font-size="11"
+        fill="rgba(255,255,255,0.28)" letter-spacing="2" text-anchor="end">WINGS CUT</text>
+  <text x="764" y="548" font-family="Arial,sans-serif" font-size="9"
+        fill="rgba(255,255,255,0.18)" letter-spacing="3" text-anchor="end">STUDIO</text>
+  <rect x="36" y="510" width="3.5" height="50" fill="#93c5fd" rx="2">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

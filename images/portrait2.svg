@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#051208"/>
+      <stop offset="40%" stop-color="#0f3d1c"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <radialGradient id="vign" cx="50%" cy="50%" r="75%">
+      <stop offset="30%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.72)"/>
+    </radialGradient>
+    <filter id="blur2"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Outdoor portrait - nature blur bg -->
+  <radialGradient id="natbg" cx="50%" cy="40%" r="65%">
+    <stop offset="0%" stop-color="#22c55e" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#051208" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="800" height="600" fill="url(#natbg)"/>
+  <!-- Bokeh circles - out of focus background -->
+  <circle cx="80" cy="50" r="12" fill="#22c55e" opacity="0.06" filter="url(#blur2)"/><circle cx="135" cy="91" r="13" fill="#a7f3d0" opacity="0.08" filter="url(#blur2)"/><circle cx="190" cy="132" r="14" fill="#0f3d1c" opacity="0.1" filter="url(#blur2)"/><circle cx="245" cy="173" r="15" fill="#22c55e" opacity="0.12" filter="url(#blur2)"/><circle cx="300" cy="214" r="16" fill="#a7f3d0" opacity="0.14" filter="url(#blur2)"/><circle cx="355" cy="55" r="17" fill="#0f3d1c" opacity="0.06" filter="url(#blur2)"/><circle cx="410" cy="96" r="18" fill="#22c55e" opacity="0.08" filter="url(#blur2)"/><circle cx="465" cy="137" r="19" fill="#a7f3d0" opacity="0.1" filter="url(#blur2)"/><circle cx="520" cy="178" r="20" fill="#0f3d1c" opacity="0.12" filter="url(#blur2)"/><circle cx="575" cy="219" r="21" fill="#22c55e" opacity="0.14" filter="url(#blur2)"/><circle cx="630" cy="60" r="22" fill="#a7f3d0" opacity="0.06" filter="url(#blur2)"/><circle cx="685" cy="101" r="23" fill="#0f3d1c" opacity="0.08" filter="url(#blur2)"/><circle cx="740" cy="142" r="24" fill="#22c55e" opacity="0.1" filter="url(#blur2)"/><circle cx="795" cy="183" r="25" fill="#a7f3d0" opacity="0.12" filter="url(#blur2)"/>
+  <circle cx="30" cy="380" r="8" fill="#a7f3d0" opacity="0.05" filter="url(#blur2)"/><circle cx="90" cy="417" r="9" fill="#a7f3d0" opacity="0.07" filter="url(#blur2)"/><circle cx="150" cy="454" r="10" fill="#a7f3d0" opacity="0.09" filter="url(#blur2)"/><circle cx="210" cy="491" r="11" fill="#a7f3d0" opacity="0.11" filter="url(#blur2)"/><circle cx="270" cy="528" r="12" fill="#a7f3d0" opacity="0.05" filter="url(#blur2)"/><circle cx="330" cy="405" r="13" fill="#a7f3d0" opacity="0.07" filter="url(#blur2)"/><circle cx="390" cy="442" r="14" fill="#a7f3d0" opacity="0.09" filter="url(#blur2)"/><circle cx="450" cy="479" r="15" fill="#a7f3d0" opacity="0.11" filter="url(#blur2)"/><circle cx="510" cy="516" r="16" fill="#a7f3d0" opacity="0.05" filter="url(#blur2)"/><circle cx="570" cy="393" r="17" fill="#a7f3d0" opacity="0.07" filter="url(#blur2)"/><circle cx="630" cy="430" r="18" fill="#a7f3d0" opacity="0.09" filter="url(#blur2)"/><circle cx="690" cy="467" r="19" fill="#a7f3d0" opacity="0.11" filter="url(#blur2)"/><circle cx="750" cy="504" r="20" fill="#a7f3d0" opacity="0.05" filter="url(#blur2)"/>
+  <!-- Full body silhouette (standing) -->
+  <circle cx="395" cy="180" r="68" fill="rgba(0,0,0,0.4)"/>
+  <ellipse cx="395" cy="150" rx="76" ry="54" fill="rgba(0,0,0,0.45)"/>
+  <ellipse cx="395" cy="420" rx="85" ry="200" fill="rgba(0,0,0,0.38)"/>
+  <rect x="375" y="244" width="40" height="55" fill="rgba(0,0,0,0.38)" rx="6"/>
+  <!-- Wind-blown hair -->
+  <path d="M 320 130 Q 340 80 420 110 Q 450 90 470 120" stroke="rgba(0,0,0,0.45)" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <!-- Natural light hit -->
+  <ellipse cx="360" cy="170" rx="30" ry="40" fill="#a7f3d0" opacity="0.08" transform="rotate(-20,360,170)"/>
+
+  <rect width="800" height="600" fill="url(#vign)"/>
+  <rect x="0" y="0" width="800" height="3" fill="#a7f3d0" opacity="0.8"/>
+  <rect x="0" y="488" width="800" height="112" fill="rgba(0,0,0,0.70)"/>
+  <rect x="0" y="488" width="800" height="1" fill="#a7f3d0" opacity="0.5"/>
+  <rect x="36" y="510" width="3.5" height="50" fill="#a7f3d0" opacity="0.9" rx="2"/>
+  <text x="52" y="534" font-family="Georgia,serif" font-size="21" font-weight="700"
+        fill="white" letter-spacing="3.5" opacity="0.95">OUTDOOR SESSION</text>
+  <text x="52" y="558" font-family="Arial,sans-serif" font-size="13"
+        fill="rgba(255,255,255,0.5)" letter-spacing="1.5">Natural Light Magic</text>
+  <text x="764" y="530" font-family="Georgia,serif" font-size="11"
+        fill="rgba(255,255,255,0.28)" letter-spacing="2" text-anchor="end">WINGS CUT</text>
+  <text x="764" y="548" font-family="Arial,sans-serif" font-size="9"
+        fill="rgba(255,255,255,0.18)" letter-spacing="3" text-anchor="end">STUDIO</text>
+  <rect x="36" y="510" width="3.5" height="50" fill="#a7f3d0" rx="2">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

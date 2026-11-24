@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0800"/>
+      <stop offset="40%" stop-color="#6b2800"/>
+      <stop offset="100%" stop-color="#c87941"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="35%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#c87941" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#1a0800" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="75%" cy="72%" r="45%">
+      <stop offset="0%" stop-color="#ffd4a0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="vign" cx="50%" cy="50%" r="75%">
+      <stop offset="30%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.72)"/>
+    </radialGradient>
+    <filter id="blur2"><feGaussianBlur stdDeviation="50"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+
+  <!-- Main background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Atmospheric glow -->
+  <rect width="800" height="600" fill="url(#glow)"/>
+  <rect width="800" height="600" fill="url(#glow2)"/>
+
+  <!-- Style-specific content -->
+  
+  <!-- Bokeh circles simulating wedding lights -->
+  <circle cx="150" cy="100" r="60" fill="#c87941" opacity="0.06" filter="url(#blur2)"/>
+  <circle cx="650" cy="80" r="80" fill="#ffd4a0" opacity="0.08" filter="url(#blur2)"/>
+  <circle cx="720" cy="320" r="50" fill="#c87941" opacity="0.05" filter="url(#blur2)"/>
+  <circle cx="80" cy="400" r="70" fill="#ffd4a0" opacity="0.07" filter="url(#blur2)"/>
+  <circle cx="400" cy="500" r="90" fill="#c87941" opacity="0.04" filter="url(#blur2)"/>
+  <!-- Floral silhouettes -->
+  <ellipse cx="120" cy="520" rx="80" ry="100" fill="#6b2800" opacity="0.12" transform="rotate(-15,120,520)"/>
+  <ellipse cx="680" cy="500" rx="70" ry="90" fill="#6b2800" opacity="0.10" transform="rotate(20,680,500)"/>
+  <!-- Couple silhouette -->
+  <ellipse cx="370" cy="310" rx="22" ry="60" fill="rgba(0,0,0,0.35)" transform="rotate(-5,370,310)"/>
+  <circle cx="370" cy="235" r="18" fill="rgba(0,0,0,0.35)"/>
+  <ellipse cx="430" cy="315" rx="20" ry="58" fill="rgba(0,0,0,0.35)" transform="rotate(5,430,315)"/>
+  <circle cx="430" cy="242" r="16" fill="rgba(0,0,0,0.35)"/>
+  <!-- Light leak top right -->
+  <ellipse cx="700" cy="0" rx="200" ry="150" fill="#ffd4a0" opacity="0.15" filter="url(#blur2)"/>
+  
+
+  <!-- Vignette -->
+  <rect width="800" height="600" fill="url(#vign)"/>
+
+  <!-- Top red accent line -->
+  <rect x="0" y="0" width="800" height="3" fill="#ffd4a0" opacity="0.8"/>
+
+  <!-- Bottom info panel -->
+  <rect x="0" y="488" width="800" height="112" fill="rgba(0,0,0,0.70)"/>
+  <rect x="0" y="488" width="800" height="1" fill="#ffd4a0" opacity="0.5"/>
+
+  <!-- Category label -->
+  <rect x="36" y="510" width="3.5" height="50" fill="#ffd4a0" opacity="0.9" rx="2"/>
+  <text x="52" y="534" font-family="Georgia,serif" font-size="21" font-weight="700"
+        fill="white" letter-spacing="3.5" opacity="0.95">PRE-WEDDING SHOOT</text>
+  <text x="52" y="558" font-family="Arial,sans-serif" font-size="13"
+        fill="rgba(255,255,255,0.5)" letter-spacing="1.5">Love In Every Frame</text>
+
+  <!-- WINGS CUT watermark -->
+  <text x="764" y="530" font-family="Georgia,serif" font-size="11"
+        fill="rgba(255,255,255,0.28)" letter-spacing="2" text-anchor="end">WINGS CUT</text>
+  <text x="764" y="548" font-family="Arial,sans-serif" font-size="9"
+        fill="rgba(255,255,255,0.18)" letter-spacing="3" text-anchor="end">STUDIO</text>
+
+  <!-- Pulsing accent -->
+  <rect x="36" y="510" width="3.5" height="50" fill="#ffd4a0" rx="2">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>

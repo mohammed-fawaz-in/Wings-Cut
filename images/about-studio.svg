@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+
+  <defs>
+    <linearGradient id="st" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050005"/>
+      <stop offset="50%" stop-color="#1a0008"/>
+      <stop offset="100%" stop-color="#3d0015"/>
+    </linearGradient>
+    <radialGradient id="sl1" cx="35%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#ff9eb5" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="sl2" cx="75%" cy="35%" r="35%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <filter id="sb6"><feGaussianBlur stdDeviation="38"/></filter>
+    <filter id="glow6"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="vign" cx="50%" cy="50%" r="70%"><stop offset="30%" stop-color="transparent"/><stop offset="100%" stop-color="rgba(0,0,0,0.78)"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#st)"/>
+  <rect width="800" height="600" fill="url(#sl1)"/>
+  <rect width="800" height="600" fill="url(#sl2)"/>
+  <!-- Studio backdrop wall -->
+  <rect x="80" y="60" width="640" height="420" fill="rgba(15,5,20,0.8)" rx="4"/>
+  <rect x="84" y="64" width="632" height="412" fill="rgba(20,8,25,0.7)" rx="3"/>
+  <!-- Camera on tripod - prominent -->
+  <rect x="350" y="355" width="100" height="16" fill="rgba(40,20,50,0.95)" rx="3"/>
+  <line x1="355" y1="371" x2="325" y2="480" stroke="rgba(40,20,50,0.9)" stroke-width="6" stroke-linecap="round"/>
+  <line x1="400" y1="371" x2="400" y2="480" stroke="rgba(40,20,50,0.9)" stroke-width="6" stroke-linecap="round"/>
+  <line x1="445" y1="371" x2="475" y2="480" stroke="rgba(40,20,50,0.9)" stroke-width="6" stroke-linecap="round"/>
+  <!-- Tripod feet -->
+  <circle cx="325" cy="482" r="5" fill="rgba(40,20,50,0.9)"/>
+  <circle cx="400" cy="482" r="5" fill="rgba(40,20,50,0.9)"/>
+  <circle cx="475" cy="482" r="5" fill="rgba(40,20,50,0.9)"/>
+  <!-- Camera body -->
+  <rect x="340" y="315" width="120" height="44" fill="rgba(30,15,40,0.95)" rx="6"/>
+  <!-- Camera lens -->
+  <circle cx="400" cy="337" r="22" fill="rgba(10,5,20,0.95)"/>
+  <circle cx="400" cy="337" r="16" fill="rgba(15,8,25,0.9)"/>
+  <circle cx="400" cy="337" r="10" fill="rgba(20,10,30,0.85)"/>
+  <circle cx="406" cy="331" r="4" fill="rgba(255,255,255,0.12)"/>
+  <!-- Camera hot shoe / viewfinder -->
+  <rect x="360" y="308" width="60" height="10" fill="rgba(30,15,40,0.9)" rx="2"/>
+  <!-- Softbox left -->
+  <rect x="88" y="85" width="14" height="320" fill="rgba(30,15,40,0.9)"/>
+  <rect x="45" y="85" width="100" height="90" fill="rgba(30,15,40,0.85)" rx="5"/>
+  <rect x="50" y="90" width="90" height="80" fill="rgba(255,240,220,0.12)" rx="4"/>
+  <!-- Softbox right -->
+  <rect x="698" y="100" width="14" height="300" fill="rgba(30,15,40,0.9)"/>
+  <rect x="655" y="100" width="100" height="90" fill="rgba(30,15,40,0.85)" rx="5"/>
+  <rect x="660" y="105" width="90" height="80" fill="rgba(255,240,220,0.10)" rx="4"/>
+  <!-- Reflector bounce card -->
+  <rect x="600" y="220" width="60" height="100" fill="rgba(255,255,255,0.08)" rx="3"/>
+  <!-- Monitor/screen on stand -->
+  <rect x="88" y="350" width="130" height="90" fill="rgba(10,5,20,0.9)" rx="4"/>
+  <rect x="92" y="354" width="122" height="82" fill="rgba(20,10,30,0.85)" rx="3"/>
+  <!-- Screen content - photo being reviewed -->
+  <rect x="96" y="358" width="114" height="74" fill="rgba(100,20,50,0.3)" rx="2"/>
+  <rect x="140" y="370" width="30" height="50" fill="rgba(180,100,150,0.3)"/>
+  <circle cx="155" cy="372" r="14" fill="rgba(180,100,150,0.35)"/>
+  <!-- Monitor stand -->
+  <rect x="148" y="440" width="10" height="40" fill="rgba(30,15,40,0.9)"/>
+  <rect x="130" y="478" width="46" height="6" fill="rgba(30,15,40,0.9)" rx="2"/>
+  <!-- Photographer silhouette at camera -->
+  <circle cx="540" cy="290" r="30" fill="rgba(15,8,25,0.95)"/>
+  <ellipse cx="540" cy="380" rx="32" ry="80" fill="rgba(15,8,25,0.9)"/>
+  <line x1="540" y1="320" x2="490" y2="345" stroke="rgba(15,8,25,0.9)" stroke-width="18" stroke-linecap="round"/>
+  <line x1="540" y1="320" x2="425" y2="335" stroke="rgba(15,8,25,0.9)" stroke-width="14" stroke-linecap="round"/>
+  <!-- Wings Cut logo on backdrop -->
+  <circle cx="400" cy="180" r="38" fill="none" stroke="rgba(139,0,0,0.4)" stroke-width="2"/>
+  <circle cx="400" cy="180" r="28" fill="rgba(139,0,0,0.15)"/>
+  <text x="400" y="187" text-anchor="middle" font-family="Georgia,serif" font-size="11" fill="rgba(255,255,255,0.5)" letter-spacing="2">WC</text>
+  
+  <!-- Vignette overlay -->
+  <rect width="800" height="600" fill="url(#vign)"/>
+  <!-- Top accent -->
+  <rect x="0" y="0" width="800" height="3" fill="#ffd700" opacity="0.85"/>
+  <!-- Bottom label panel -->
+  <rect x="0" y="488" width="800" height="112" fill="rgba(0,0,0,0.72)"/>
+  <rect x="0" y="488" width="800" height="1.5" fill="#ffd700" opacity="0.55"/>
+  <!-- Accent bar -->
+  <rect x="36" y="508" width="3.5" height="52" fill="#ffd700" opacity="0.9" rx="2">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Title -->
+  <text x="52" y="534" font-family="Georgia,serif" font-size="21" font-weight="700"
+        fill="white" letter-spacing="3" opacity="0.95">WINGS CUT STUDIO</text>
+  <text x="52" y="558" font-family="Arial,sans-serif" font-size="13"
+        fill="rgba(255,255,255,0.52)" letter-spacing="1.5">Where Stories Begin</text>
+  <!-- Watermark -->
+  <text x="764" y="530" font-family="Georgia,serif" font-size="11"
+        fill="rgba(255,255,255,0.3)" letter-spacing="2" text-anchor="end">WINGS CUT</text>
+  <text x="764" y="548" font-family="Arial,sans-serif" font-size="9"
+        fill="rgba(255,255,255,0.2)" letter-spacing="3" text-anchor="end">STUDIO</text>
+</svg>

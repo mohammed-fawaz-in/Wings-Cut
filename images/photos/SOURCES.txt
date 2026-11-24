@@ -1,0 +1,23 @@
+Where the sample photos in this folder came from
+==================================================
+
+These are PLACEHOLDER photos so the site doesn't look empty while you collect
+your own work. They were pulled from public GitHub template repositories that
+are published under the MIT licence:
+
+  - jaugustodev/portfolio-photographer      (city / travel / night shots)
+  - CristhGunners/Att                       (landscapes)
+  - NN-Bayat/Photography-AlinaLee           (portraits, one couple shot)
+  - pasha804/event-organization-agency-website  (events, one wedding dress shot)
+  - tirthuix/Wedding-Planner-Website        (wedding venues and couples)
+  - dyCodes/EventPlanner                    (event venues and decor)
+
+A heads-up: the MIT licence covers each repo's code. I couldn't confirm where
+the photos inside them originally came from (they look like typical Unsplash /
+Pexels style stock). Before the site goes public for real clients, replace
+them with your own work. A studio site should show your photos anyway.
+
+How to swap them
+----------------
+Delete the sample files in a folder and drop your own in. The page picks up
+whatever is in images/photos/<category>/ automatically, no code change needed.

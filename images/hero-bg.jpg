@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a00"/>
+      <stop offset="50%" style="stop-color:#3d1a00"/>
+      <stop offset="100%" style="stop-color:#8B0000"/>
+    </linearGradient>
+    <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feBlend in="SourceGraphic" mode="multiply" result="blend"/></filter>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:rgba(0,0,0,0)"/>
+      <stop offset="100%" style="stop-color:rgba(0,0,0,0.7)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#g1)"/>
+  <!-- Film grain texture -->
+  <rect width="1400" height="900" fill="url(#vignette)" opacity="0.8"/>
+  <!-- Decorative light leak -->
+  <ellipse cx="350" cy="270" rx="560" ry="315" fill="rgba(255,200,100,0.06)"/>
+  <ellipse cx="1050" cy="630" rx="489" ry="270" fill="rgba(139,0,0,0.08)"/>
+  <!-- Camera aperture decorative -->
+  <circle cx="700" cy="450" r="135" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <circle cx="700" cy="450" r="198" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <!-- Center icon -->
+  <text x="700" y="442" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="108" font-family="Arial">📷</text>
+  <!-- Label -->
+  <text x="700" y="648" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="36" font-family="'Georgia',serif" letter-spacing="3">CINEMATIC WEDDING FILM</text>
+  <text x="700" y="702" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="22" font-family="Arial" letter-spacing="2">WINGS CUT STUDIO</text>
+  <!-- Bottom red accent line -->
+  <rect x="660" y="738" width="80" height="2" fill="rgba(139,0,0,0.6)" rx="1"/>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+
+  <defs>
+    <linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15002d"/>
+      <stop offset="50%" stop-color="#3d0060"/>
+      <stop offset="100%" stop-color="#700030"/>
+    </linearGradient>
+    <filter id="sb5"><feGaussianBlur stdDeviation="35"/></filter>
+    <filter id="glow5"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="vign" cx="50%" cy="50%" r="70%"><stop offset="30%" stop-color="transparent"/><stop offset="100%" stop-color="rgba(0,0,0,0.72)"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sg)"/>
+  <!-- Colorful stage lights -->
+  <ellipse cx="150" cy="0" rx="100" ry="250" fill="#e879f9" opacity="0.12" filter="url(#sb5)"/>
+  <ellipse cx="400" cy="0" rx="120" ry="280" fill="#fbbf24" opacity="0.15" filter="url(#sb5)"/>
+  <ellipse cx="650" cy="0" rx="100" ry="250" fill="#34d399" opacity="0.12" filter="url(#sb5)"/>
+  <!-- Dancers silhouettes -->
+  <!-- Dancer 1 - arms raised -->
+  <circle cx="200" cy="280" r="30" fill="rgba(30,5,50,0.9)"/>
+  <ellipse cx="200" cy="390" rx="30" ry="90" fill="rgba(30,5,50,0.85)"/>
+  <line x1="200" y1="310" x2="140" y2="255" stroke="rgba(30,5,50,0.9)" stroke-width="16" stroke-linecap="round"/>
+  <line x1="200" y1="310" x2="260" y2="248" stroke="rgba(30,5,50,0.9)" stroke-width="16" stroke-linecap="round"/>
+  <!-- Dancer 1 lehenga -->
+  <path d="M 172 380 Q 160 480 200 490 Q 240 480 228 380 Z" fill="rgba(180,20,120,0.4)"/>
+  <!-- Dancer 2 - spinning -->
+  <circle cx="400" cy="270" r="28" fill="rgba(30,5,50,0.9)"/>
+  <ellipse cx="400" cy="380" rx="28" ry="88" fill="rgba(30,5,50,0.85)"/>
+  <line x1="400" y1="298" x2="344" y2="265" stroke="rgba(30,5,50,0.9)" stroke-width="15" stroke-linecap="round"/>
+  <line x1="400" y1="298" x2="458" y2="258" stroke="rgba(30,5,50,0.9)" stroke-width="15" stroke-linecap="round"/>
+  <!-- Spinning skirt effect -->
+  <ellipse cx="400" cy="430" rx="80" ry="40" fill="rgba(255,100,200,0.2)" filter="url(#sb5)"/>
+  <path d="M 340 380 Q 300 470 400 490 Q 500 470 460 380 Z" fill="rgba(220,40,140,0.35)"/>
+  <!-- Dancer 3 -->
+  <circle cx="600" cy="285" r="28" fill="rgba(30,5,50,0.9)"/>
+  <ellipse cx="600" cy="395" rx="30" ry="85" fill="rgba(30,5,50,0.85)"/>
+  <line x1="600" y1="313" x2="548" y2="268" stroke="rgba(30,5,50,0.9)" stroke-width="15" stroke-linecap="round"/>
+  <line x1="600" y1="313" x2="644" y2="272" stroke="rgba(30,5,50,0.9)" stroke-width="15" stroke-linecap="round"/>
+  <path d="M 572 385 Q 558 478 600 490 Q 642 478 628 385 Z" fill="rgba(255,200,50,0.35)"/>
+  <!-- Fairy lights string -->
+  <path d="M 50 180 Q 200 160 400 175 Q 600 160 750 180" stroke="rgba(255,215,0,0.4)" stroke-width="2" fill="none"/>
+  <!-- Light bulbs on string -->
+  <circle cx="100" cy="178" r="5" fill="#ffd700" opacity="0.8" filter="url(#glow5)"/>
+  <circle cx="180" cy="169" r="5" fill="#ffd700" opacity="0.8" filter="url(#glow5)"/>
+  <circle cx="260" cy="166" r="5" fill="#ff9eb5" opacity="0.8" filter="url(#glow5)"/>
+  <circle cx="340" cy="170" r="5" fill="#ffd700" opacity="0.8" filter="url(#glow5)"/>
+  <circle cx="420" cy="170" r="5" fill="#a78bfa" opacity="0.8" filter="url(#glow5)"/>
+  <circle cx="500" cy="165" r="5" fill="#ffd700" opacity="0.8" filter="url(#glow5)"/>
+  <circle cx="580" cy="168" r="5" fill="#ff9eb5" opacity="0.8" filter="url(#glow5)"/>
+  <circle cx="660" cy="175" r="5" fill="#ffd700" opacity="0.8" filter="url(#glow5)"/>
+  <circle cx="720" cy="178" r="5" fill="#a78bfa" opacity="0.8" filter="url(#glow5)"/>
+  <!-- Floor reflection -->
+  <rect x="0" y="490" width="800" height="110" fill="rgba(0,0,0,0.7)"/>
+  <rect x="0" y="488" width="800" height="4" fill="rgba(180,100,255,0.25)"/>
+  <!-- Confetti -->
+  <rect x="160" y="200" width="6" height="10" fill="#ffd700" opacity="0.7" transform="rotate(20,163,205)"/>
+  <rect x="280" y="150" width="5" height="9" fill="#ff9eb5" opacity="0.7" transform="rotate(-15,282,154)"/>
+  <rect x="450" y="180" width="6" height="10" fill="#a78bfa" opacity="0.7" transform="rotate(30,453,185)"/>
+  <rect x="560" y="160" width="5" height="9" fill="#ffd700" opacity="0.7" transform="rotate(-25,562,164)"/>
+  <rect x="680" y="200" width="6" height="10" fill="#ff9eb5" opacity="0.7" transform="rotate(10,683,205)"/>
+  
+  <!-- Vignette overlay -->
+  <rect width="800" height="600" fill="url(#vign)"/>
+  <!-- Top accent -->
+  <rect x="0" y="0" width="800" height="3" fill="#e879f9" opacity="0.85"/>
+  <!-- Bottom label panel -->
+  <rect x="0" y="488" width="800" height="112" fill="rgba(0,0,0,0.72)"/>
+  <rect x="0" y="488" width="800" height="1.5" fill="#e879f9" opacity="0.55"/>
+  <!-- Accent bar -->
+  <rect x="36" y="508" width="3.5" height="52" fill="#e879f9" opacity="0.9" rx="2">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Title -->
+  <text x="52" y="534" font-family="Georgia,serif" font-size="21" font-weight="700"
+        fill="white" letter-spacing="3" opacity="0.95">SANGEET NIGHT</text>
+  <text x="52" y="558" font-family="Arial,sans-serif" font-size="13"
+        fill="rgba(255,255,255,0.52)" letter-spacing="1.5">Dance & Celebration</text>
+  <!-- Watermark -->
+  <text x="764" y="530" font-family="Georgia,serif" font-size="11"
+        fill="rgba(255,255,255,0.3)" letter-spacing="2" text-anchor="end">WINGS CUT</text>
+  <text x="764" y="548" font-family="Arial,sans-serif" font-size="9"
+        fill="rgba(255,255,255,0.2)" letter-spacing="3" text-anchor="end">STUDIO</text>
+</svg>

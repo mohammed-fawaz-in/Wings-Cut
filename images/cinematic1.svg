@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+
+  <defs>
+    <linearGradient id="cin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#050515"/>
+      <stop offset="100%" stop-color="#0a0520"/>
+    </linearGradient>
+    <radialGradient id="citylight" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ff6b35" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="moon" cx="72%" cy="22%" r="8%">
+      <stop offset="0%" stop-color="#e8e8d0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <filter id="sb4"><feGaussianBlur stdDeviation="35"/></filter>
+    <filter id="glow4"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="vign" cx="50%" cy="50%" r="70%"><stop offset="30%" stop-color="transparent"/><stop offset="100%" stop-color="rgba(0,0,0,0.80)"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#cin)"/>
+  <rect width="800" height="600" fill="url(#citylight)"/>
+  <rect width="800" height="600" fill="url(#moon)"/>
+  <!-- Film letterbox bars -->
+  <rect x="0" y="0" width="800" height="72" fill="#000"/>
+  <rect x="0" y="528" width="800" height="72" fill="#000"/>
+  <!-- Film sprocket holes top -->
+  <rect x="8"  y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="62" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="116" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="170" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="224" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="278" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="332" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="386" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="440" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="494" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="548" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="602" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="656" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="710" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="764" y="10" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <!-- Film sprocket holes bottom -->
+  <rect x="8"  y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="62" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="116" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="170" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="224" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="278" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="332" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="386" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="440" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="494" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="548" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="602" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="656" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="710" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <rect x="764" y="538" width="28" height="52" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <!-- Cityscape night scene -->
+  <!-- Moon -->
+  <circle cx="576" cy="140" r="38" fill="rgba(232,232,208,0.18)" filter="url(#sb4)"/>
+  <circle cx="576" cy="140" r="24" fill="rgba(232,232,208,0.14)"/>
+  <!-- Stars -->
+  <circle cx="120" cy="90" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="200" cy="105" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="280" cy="88" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="350" cy="100" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="480" cy="92" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="650" cy="98" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="720" cy="85" r="1.5" fill="#fff" opacity="0.8"/>
+  <!-- Buildings silhouettes -->
+  <rect x="0"   y="200" width="80" height="330" fill="rgba(5,2,15,0.95)"/>
+  <rect x="10"  y="170" width="30" height="30"  fill="rgba(5,2,15,0.95)"/>
+  <rect x="85"  y="260" width="60" height="270" fill="rgba(8,3,20,0.92)"/>
+  <rect x="150" y="190" width="70" height="340" fill="rgba(5,2,15,0.95)"/>
+  <rect x="160" y="155" width="20" height="40"  fill="rgba(5,2,15,0.95)"/>
+  <rect x="225" y="240" width="55" height="290" fill="rgba(8,3,20,0.92)"/>
+  <rect x="285" y="205" width="85" height="325" fill="rgba(5,2,15,0.95)"/>
+  <rect x="380" y="230" width="60" height="300" fill="rgba(8,3,20,0.92)"/>
+  <rect x="445" y="175" width="90" height="355" fill="rgba(5,2,15,0.95)"/>
+  <rect x="540" y="250" width="65" height="280" fill="rgba(8,3,20,0.92)"/>
+  <rect x="610" y="215" width="80" height="315" fill="rgba(5,2,15,0.95)"/>
+  <rect x="695" y="255" width="55" height="275" fill="rgba(8,3,20,0.92)"/>
+  <rect x="755" y="220" width="45" height="310" fill="rgba(5,2,15,0.95)"/>
+  <!-- Building windows lit up -->
+  <rect x="20"  y="215" width="8" height="10" fill="#ff8c00" opacity="0.5" rx="1"/>
+  <rect x="35"  y="225" width="8" height="10" fill="#ffd700" opacity="0.4" rx="1"/>
+  <rect x="20"  y="240" width="8" height="10" fill="#ffd700" opacity="0.3" rx="1"/>
+  <rect x="165" y="205" width="8" height="10" fill="#ff8c00" opacity="0.5" rx="1"/>
+  <rect x="180" y="215" width="8" height="10" fill="#ffd700" opacity="0.4" rx="1"/>
+  <rect x="195" y="225" width="8" height="10" fill="#ff8c00" opacity="0.3" rx="1"/>
+  <rect x="295" y="220" width="10" height="12" fill="#ffd700" opacity="0.5" rx="1"/>
+  <rect x="312" y="235" width="10" height="12" fill="#ff8c00" opacity="0.4" rx="1"/>
+  <rect x="330" y="245" width="10" height="12" fill="#ffd700" opacity="0.3" rx="1"/>
+  <rect x="455" y="195" width="10" height="12" fill="#ff8c00" opacity="0.5" rx="1"/>
+  <rect x="472" y="210" width="10" height="12" fill="#ffd700" opacity="0.45" rx="1"/>
+  <rect x="490" y="220" width="10" height="12" fill="#ff8c00" opacity="0.35" rx="1"/>
+  <rect x="620" y="230" width="10" height="12" fill="#ffd700" opacity="0.5" rx="1"/>
+  <rect x="637" y="245" width="10" height="12" fill="#ff8c00" opacity="0.4" rx="1"/>
+  <!-- City reflection in water/ground -->
+  <rect x="0" y="500" width="800" height="28" fill="rgba(10,5,30,0.9)"/>
+  <rect x="0" y="498" width="800" height="4" fill="rgba(100,60,180,0.2)"/>
+  <!-- Lens flare -->
+  <ellipse cx="576" cy="140" rx="300" ry="3" fill="rgba(232,232,208,0.06)"/>
+  <!-- Camera clapperboard hint bottom right -->
+  <rect x="680" y="455" width="90" height="60" fill="rgba(20,10,40,0.8)" rx="3"/>
+  <rect x="680" y="455" width="90" height="16" fill="rgba(255,255,255,0.12)" rx="3"/>
+  <line x1="697" y1="455" x2="697" y2="471" stroke="rgba(0,0,0,0.5)" stroke-width="2"/>
+  <line x1="714" y1="455" x2="714" y2="471" stroke="rgba(0,0,0,0.5)" stroke-width="2"/>
+  <line x1="731" y1="455" x2="731" y2="471" stroke="rgba(0,0,0,0.5)" stroke-width="2"/>
+  <line x1="748" y1="455" x2="748" y2="471" stroke="rgba(0,0,0,0.5)" stroke-width="2"/>
+  
+  <!-- Vignette overlay -->
+  <rect width="800" height="600" fill="url(#vign)"/>
+  <!-- Top accent -->
+  <rect x="0" y="0" width="800" height="3" fill="#8B0000" opacity="0.85"/>
+  <!-- Bottom label panel -->
+  <rect x="0" y="488" width="800" height="112" fill="rgba(0,0,0,0.72)"/>
+  <rect x="0" y="488" width="800" height="1.5" fill="#8B0000" opacity="0.55"/>
+  <!-- Accent bar -->
+  <rect x="36" y="508" width="3.5" height="52" fill="#8B0000" opacity="0.9" rx="2">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Title -->
+  <text x="52" y="534" font-family="Georgia,serif" font-size="21" font-weight="700"
+        fill="white" letter-spacing="3" opacity="0.95">CINEMATIC REEL</text>
+  <text x="52" y="558" font-family="Arial,sans-serif" font-size="13"
+        fill="rgba(255,255,255,0.52)" letter-spacing="1.5">Story In Motion</text>
+  <!-- Watermark -->
+  <text x="764" y="530" font-family="Georgia,serif" font-size="11"
+        fill="rgba(255,255,255,0.3)" letter-spacing="2" text-anchor="end">WINGS CUT</text>
+  <text x="764" y="548" font-family="Arial,sans-serif" font-size="9"
+        fill="rgba(255,255,255,0.2)" letter-spacing="3" text-anchor="end">STUDIO</text>
+</svg>

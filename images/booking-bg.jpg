@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050005"/>
+      <stop offset="50%" style="stop-color:#100010"/>
+      <stop offset="100%" style="stop-color:#200020"/>
+    </linearGradient>
+    <filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feBlend in="SourceGraphic" mode="multiply" result="blend"/></filter>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" style="stop-color:rgba(0,0,0,0)"/>
+      <stop offset="100%" style="stop-color:rgba(0,0,0,0.7)"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g1)"/>
+  <!-- Film grain texture -->
+  <rect width="1200" height="700" fill="url(#vignette)" opacity="0.8"/>
+  <!-- Decorative light leak -->
+  <ellipse cx="300" cy="210" rx="480" ry="244" fill="rgba(255,200,100,0.06)"/>
+  <ellipse cx="900" cy="489" rx="420" ry="210" fill="rgba(139,0,0,0.08)"/>
+  <!-- Camera aperture decorative -->
+  <circle cx="600" cy="350" r="105" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <circle cx="600" cy="350" r="154" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <!-- Center icon -->
+  <text x="600" y="342" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="84" font-family="Arial">📷</text>
+  <!-- Label -->
+  <text x="600" y="504" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="28" font-family="'Georgia',serif" letter-spacing="3">BOOK YOUR SESSION</text>
+  <text x="600" y="546" text-anchor="middle" fill="rgba(255,255,255,0.2)" font-size="17" font-family="Arial" letter-spacing="2">WINGS CUT STUDIO</text>
+  <!-- Bottom red accent line -->
+  <rect x="560" y="574" width="80" height="2" fill="rgba(139,0,0,0.6)" rx="1"/>
+</svg>
